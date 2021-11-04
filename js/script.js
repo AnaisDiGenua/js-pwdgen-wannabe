@@ -3,10 +3,12 @@
 
 
 // dichiarazione e assegnazione variabili
-const yourName = prompt('insert your name');
+let yourName = prompt('insert your name');
+yourName = yourName.replace(/ +/g, "");
 console.log(yourName);
 
-const yourSurname = prompt('insert your surname');
+let yourSurname = prompt('insert your surname');
+yourSurname = yourSurname.replace(/ +/g, "");
 console.log(yourSurname);
 
 const yourFavColor = prompt('insert your favourite color');
